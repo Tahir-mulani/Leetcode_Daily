@@ -18,7 +18,8 @@ Each problem is solved in a separate Java file, named descriptively with the pro
 
 ## Progress
 
-I aim to solve at least one problem daily. Check back for updates!
+ -> I aim to solve at least one problem daily.
+ -> Check back for updates!
 
 ## Contributing
 
