@@ -1,33 +1,68 @@
-# LeetCode Daily Practice
+# 🚀 LeetCode Daily Practice
 
-Welcome to my LeetCode Daily Practice repository! Here, I share my daily solutions to LeetCode problems as I work through them regularly.
+Welcome to my **LeetCode Daily Practice Repository**!  
+This repository showcases my daily commitment to solving LeetCode problems and improving my **Data Structures & Algorithms (DSA)** skills using Java.
 
-## About
+---
 
-This repository contains Java solutions to various LeetCode problems, primarily focusing on easy and medium difficulty levels. I commit my solutions daily to track my progress and practice coding skills.
+## 📌 About This Repository
 
-## Structure
+🧑‍💻 Java-based solutions for LeetCode problems  
+📊 Focus on **Easy** and **Medium** difficulty levels  
+📅 Updated **daily** for consistent practice  
+🎯 Built for **interview preparation** and logical thinking  
 
-Each problem is solved in a separate Java file, named descriptively with the problem name and LeetCode number.
+---
 
-## How to Use
+## 🗂️ Repository Structure
 
-- Clone the repository
-- Each `.java` file contains the solution to a specific problem
-- Run the Java files using your preferred Java environment (e.g., `javac` and `java`)
+📁 LeetCode-Daily-Practice
+├── TwoSum_1.java
+├── ReverseString_344.java
+├── MaximumSubarray_53.java
+├── FindMaxAverage_643.java
+└── ...
 
-## Progress
 
- -> I aim to solve at least one problem daily.
- -> Check back for updates!
+📄 Each problem is solved in a **separate Java file**  
+🏷️ File names include the **problem name and LeetCode number**  
+🧠 Code is written with **clear logic and readability**
 
-** ##**Goals of This Repository****
+---
 
-📈 Strengthen Data Structures & Algorithms
-🎯 Prepare for technical interviews
-💡 Build strong problem-solving skills
-📚 Help other learners with clear logic-based solutions
+## ▶️ How to Use
 
-## Contributing
+1️⃣ Clone the repository  
+ 
+git clone https://github.com/your-username/LeetCode-Daily-Practice.git
 
-This is a personal practice repo, but feel free to suggest improvements or discuss solutions.
+
+2️⃣ Compile any Java file
+
+javac FileName.java
+
+
+3️⃣ Run the program
+
+java FileName
+
+📈 Progress & Consistency
+
+✅ I solve at least one LeetCode problem every day
+📌 Regular commits to track improvement
+🔁 Continuous learning & optimization
+
+🎯 Goals of This Repository
+
+✨ Strengthen Data Structures & Algorithms
+💼 Prepare for technical interviews
+🧩 Improve problem-solving and logical skills
+📚 Help other learners with simple, readable solutions
+
+🤝 Contributing
+
+This is a personal practice repository, but:
+💡 Suggestions and improvements are welcome
+🗣️ Open discussions on alternate approaches and optimizations
+
+⭐ Feel free to star this repository if you find it helpful!
