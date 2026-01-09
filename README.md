@@ -21,6 +21,13 @@ Each problem is solved in a separate Java file, named descriptively with the pro
  -> I aim to solve at least one problem daily.
  -> Check back for updates!
 
+** ##**Goals of This Repository****
+
+📈 Strengthen Data Structures & Algorithms
+🎯 Prepare for technical interviews
+💡 Build strong problem-solving skills
+📚 Help other learners with clear logic-based solutions
+
 ## Contributing
 
 This is a personal practice repo, but feel free to suggest improvements or discuss solutions.
