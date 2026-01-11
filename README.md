@@ -1,68 +1,57 @@
-# 🚀 LeetCode Daily Practice
+# LeetCode Daily Practice
 
-Welcome to my **LeetCode Daily Practice Repository**!  
-This repository showcases my daily commitment to solving LeetCode problems and improving my **Data Structures & Algorithms (DSA)** skills using Java.
+A repository dedicated to daily practice of LeetCode problems using Java, focusing on improving Data Structures and Algorithms skills.
 
----
+## About This Repository
 
-## 📌 About This Repository
+This repository contains Java implementations of various LeetCode problems. It serves as a record of consistent coding practice and preparation for technical interviews, with an emphasis on clean, readable code.
 
-🧑‍💻 Java-based solutions for LeetCode problems  
-📊 Focus on **Easy** and **Medium** difficulty levels  
-📅 Updated **daily** for consistent practice  
-🎯 Built for **interview preparation** and logical thinking  
+### Key Features
+- Solutions implemented in Java
+- Focus on Easy and Medium difficulty problems
+- Daily updates for consistent practice
+- Emphasis on algorithmic thinking and problem-solving
 
----
+## Repository Structure
 
-## 🗂️ Repository Structure
+The repository consists of individual Java files, each containing the solution to a specific LeetCode problem. Files are named using the format: `[ProblemName]Leetcode[Number]APP.java`
 
-📁 LeetCode-Daily-Practice
-├── TwoSum_1.java
-├── ReverseString_344.java
-├── MaximumSubarray_53.java
-├── FindMaxAverage_643.java
-└── ...
+Examples of included problems:
+- `TwoSumLeetcode1.java`
+- `ReverseStringleetcode344APP.java`
+- `MaximumAverageSubarrayIleetcode643APP.java`
+- `SearchInsertPositionleetcode34APP.java`
+- And more...
 
+Each file includes:
+- Problem description (as comments)
+- Solution implementation
+- Clear code structure and comments for readability
 
-📄 Each problem is solved in a **separate Java file**  
-🏷️ File names include the **problem name and LeetCode number**  
-🧠 Code is written with **clear logic and readability**
+## How to Use
 
----
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/LeetCode-Daily-Practice.git
+   ```
 
-## ▶️ How to Use
+2. **Compile a Java file**
+   ```bash
+   javac FileName.java
+   ```
 
-1️⃣ Clone the repository  
- 
-git clone https://github.com/your-username/LeetCode-Daily-Practice.git
+3. **Run the program**
+   ```bash
+   java FileName
+   ```
 
+## Goals
 
-2️⃣ Compile any Java file
+- Strengthen understanding of Data Structures and Algorithms
+- Prepare for technical interviews
+- Enhance problem-solving and logical reasoning skills
+- Provide reference implementations for other learners
 
-javac FileName.java
+## Contributing
 
-
-3️⃣ Run the program
-
-java FileName
-
-📈 Progress & Consistency
-
-✅ I solve at least one LeetCode problem every day
-📌 Regular commits to track improvement
-🔁 Continuous learning & optimization
-
-🎯 Goals of This Repository
-
-✨ Strengthen Data Structures & Algorithms
-💼 Prepare for technical interviews
-🧩 Improve problem-solving and logical skills
-📚 Help other learners with simple, readable solutions
-
-🤝 Contributing
-
-This is a personal practice repository, but:
-💡 Suggestions and improvements are welcome
-🗣️ Open discussions on alternate approaches and optimizations
-
-⭐ Feel free to star this repository if you find it helpful!
+While this is primarily a personal practice repository, suggestions for improvements and alternative approaches are welcome. Feel free to open issues or pull requests for discussions on optimizations and different solutions.
