@@ -10,7 +10,9 @@ public class LengthOfLastWordleetcode58APP
 	}
 	public static int lengthOfLastWord(String s)
 	{
-        String st[] = s.split(" ");
-        return st[st.length-1].length();
+        
+       s = s.trim();
+       int lastspace = s.lastIndexOf(" ");
+       return s.length()-lastspace-1;
     }
 }
