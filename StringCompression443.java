@@ -25,7 +25,7 @@ public class StringCompression443
 		
 		while(j<ch.length)
 		{
-			char current = ch[i];
+			char current = ch[j];
 			
 			int count=0;
 			
