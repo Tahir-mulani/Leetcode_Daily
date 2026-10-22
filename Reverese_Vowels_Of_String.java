@@ -57,3 +57,29 @@ public class Reverese_Vowels_Of_String
 			
     }
 }
+/*
+class Solution{
+ public boolean vowelrev(char c){
+     return c=='A'||c=='E'||c=='I'||c=='O'||c=='U'||c=='a'||c=='e'||c=='i'||c=='o'||c=='u';
+    }
+    public String reverseVowels(String s) {
+       char[] ans = s.toCharArray();
+        int i=0;
+        int j=s.length()-1;
+        while(i<j){
+           while(i<j && !vowelrev(ans[i])){
+            i++;
+           }
+            while(i<j && !vowelrev(ans[j])){
+            j--;
+           }
+           char temp=ans[i];
+           ans[i]=ans[j];
+           ans[j]=temp;
+           i++;
+           j--;
+        }
+ return new String(ans);
+    }
+}
+*/
