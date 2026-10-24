@@ -33,38 +33,26 @@ public class Max_Number_Of_K_Sum_Pair
 	}
 	public static int maxOperations(int[] nums, int k)
 	{
-		List<Integer> list = new LinkedList<>();
-		for(int i:nums){
-			list.add(i);
-		}
-		int count =0;
-		
-		while(true)
-		{
-			boolean found = false;
+		 HashMap<Integer, Integer> map = new HashMap<>();
 
-			for(int i = 0; i < list.size(); i++)
-			{
-				for(int j = i + 1; j < list.size(); j++)
-				{
-					if(list.get(i) + list.get(j) == k)
-					{
-						count++;
+        int count = 0;
 
-						// Remove larger index first
-						list.remove(j);
-						list.remove(i);
+        for (int num : nums) {
 
-						found = true;
-						break;
-					}
-				}
-				if(found)
-                break;
-			}
-			if(!found)
-            break;
-		}
-		return count;
+            int need = k - num;
+
+            if (map.containsKey(need) && map.get(need) > 0) {
+
+                count++;
+
+                map.put(need, map.get(need) - 1);
+
+            } else {
+
+                map.put(num, map.getOrDefault(num, 0) + 1);
+            }
+        }
+
+        return count;
 	}
 }
